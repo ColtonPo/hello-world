@@ -1,0 +1,211 @@
+/*
+File Name: style.css
+Date: 05/09/19
+Programmer: Colton Poissant
+*/
+/* MOBILE STYLESHEET */
+/* Parametric mixin for headings */
+/* End parametric mixin for headings */
+/* body tags */
+
+.max-width {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5em;
+}
+
+section {
+    display: block;
+}
+
+.col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1%;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+}
+
+nav {
+    float: right;
+}
+
+.dropbtn {
+  background-color: darkred;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#myDropdown a {
+    margin-right: 10px;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    text-align: left;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+
+main,
+header,
+footer,
+nav {
+    padding: 1em;
+}
+
+main {
+    text-align: center;
+}
+
+h2 {
+    color: darkred;
+}
+
+h3 {
+    color: black;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+.headerH1 {
+    display: inline-block;
+}
+
+.menu h3 {
+    padding-top: 1em;
+}
+
+.contact i {
+    padding: .4em;
+
+}
+
+.contactLeft {
+    text-align: left;
+}
+
+.google {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%
+}
+
+
+footer li {
+    display: inline-block;
+    padding: 20px 30px 20px 30px;
+    list-style-type: none;
+}
+
+iframe {
+    padding-top: 10px;
+    width: 100%;
+}
+
+.socialMediaAccn {
+    text-align: center;
+    padding-top: 5em;
+}
+
+footer {
+    text-align: center;
+}
+
+/* STYLING FOR TABLET */
+@media only screen and (min-width: 481px) {
+  
+
+}
+
+/*
+DESKTOP STYLESHEET
+
+The following CSS affects all screen sizes larger than 1024 pixels wide.
+
+*/
+
+@media only screen and (min-width: 1024px) {
+
+    .max-width {
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+        .bowlBanner1 {
+    background-image: url(../images/bowl2.jpg);
+    height: 300px;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 50px;
+    border: 1px solid;
+
+}
+
+.bowlBanner2 {
+    background-image: url(../images/bowl2.jpg);
+    height: 300px;
+    width: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 3em;
+    border: 1px solid;
+    
+
+}
+    
+}
+
